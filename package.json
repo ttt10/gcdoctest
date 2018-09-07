@@ -1,0 +1,22 @@
+{
+  "name": "gcdoctest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "postinstall": "cd website && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iwannabebot/gcdoctest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iwannabebot/gcdoctest/issues"
+  },
+  "homepage": "https://github.com/iwannabebot/gcdoctest#readme"
+}
