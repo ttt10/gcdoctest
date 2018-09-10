@@ -1,6 +1,6 @@
 ---
 id: doc1
-title: Latin-ish
+title: Edited By Nilay Vishwakarma
 sidebar_label: Example Page
 ---
 
