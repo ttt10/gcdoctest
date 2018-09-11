@@ -1,0 +1,17 @@
+language: node_js
+node_js:
+  - "stable"
+env:
+  - NODE_ENVIRONMENT= $NODE_ENVIRONMENT
+cache:
+  directories:
+  - website/node_modules
+script:
+  - npm run build
+deploy:
+  -   provider: pages
+      skip_cleanup: true
+      github_token: $GITHUB_TOKEN
+      local_dir: website/build/test-site
+      on:
+        branch: master
