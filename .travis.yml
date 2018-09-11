@@ -8,19 +8,19 @@ cache:
   - website/node_modules
 script:
   - npm run build
-# deploy:
-#   provider: azure_web_apps
-#   skip_cleanup: true
-#   username: $azure_deployment_user       # If AZURE_WA_USERNAME isn't set
-#   password: $azure_deployment_password   # If AZURE_WA_PASSWORD isn't set
-#   site: $azure_deployment_sitename       # If AZURE_WA_SITE isn't set
-#   verbose: true
-#   on:
-#     branch: master
 deploy:
-  provider: pages
+  provider: azure_web_apps
   skip_cleanup: true
-  github_token: $GITHUB_TOKEN
-  local_dir: website/build/test-site
+  username: $azure_deployment_user       # If AZURE_WA_USERNAME isn't set
+  password: $azure_deployment_password   # If AZURE_WA_PASSWORD isn't set
+  site: $azure_deployment_sitename       # If AZURE_WA_SITE isn't set
+  verbose: true
   on:
     branch: master
+# deploy:
+#   provider: pages
+#   skip_cleanup: true
+#   github_token: $GITHUB_TOKEN
+#   local_dir: website/build/test-site
+#   on:
+#     branch: master
