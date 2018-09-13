@@ -45,9 +45,15 @@ $$\(\sqrt{3x-1}+(1+x)^2\)$$
 $$\sin(\alpha)^{\theta}=\sum_{i=0}^{n}(x^i + \cos(f))$$
                 
 
-| First Header  | Second Header |
+##1.1.1.8 Using Spread.Sheets Libraries
+```
+You can load Spread.Sheets sub-libraries to use certain features without loading all the libraries. 
+```
+
+| Features  | Required Libraries  |
 | ------------- | ------------- |
-| Content Cell  | Content Cell  |
+| Core   | gc.spread.common.*.**.*****.*.min.js
+             gc.spread.sheets.core.*.**.*****.*.min.js  |
 | Content Cell  | Content Cell  |
 
 | Function name | Description                    |
