@@ -1,6 +1,6 @@
 ---
 id: doc1
-title: Edited By Nilay Vishwakarma
+title: Sample Docs
 sidebar_label: Example Page
 ---
 
@@ -36,13 +36,27 @@ window.onload = function () {             var spread = new G
 
 
    
-$$E=mc^2$$
+- Item C
+     
+####Unordered list (*)
 
-Inline $$E=mc^2$$ Inline，Inline $$E=mc^2$$ Inline。
+* Item A
+* Item B
+* Item C
 
-$$\(\sqrt{3x-1}+(1+x)^2\)$$
-                    
-$$\sin(\alpha)^{\theta}=\sum_{i=0}^{n}(x^i + \cos(f))$$
+####Unordered list (plus sign and nested)
+                
++ Item A
++ Item B
+    + Item B 1
+    + Item B 2
+    + Item B 3
++ Item C
+    * Item C 1
+    * Item C 2
+    * Item C 3
+
+####Ordered list
                 
 
 ##1.1.1.8 Using Spread.Sheets Libraries
