@@ -1,6 +1,6 @@
 ---
 id: doc1
-title: Edited By Nilay Vishwakarma
+title: Sample Docs
 sidebar_label: Example Page
 ---
 
