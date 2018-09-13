@@ -33,7 +33,46 @@ Or
 window.onload = function () {             var spread = new GC.Spread.Sheets.Workbook(document.getElementById("ss"));var activeSheet = spread.getActiveSheet();          }   </script>   licensekey.js file:    GC.Spread.Sheets.LicenseKey = "xxxxxx";
 ```
 ## Nulla
+####Javascript　
 
+```javascript
+function test(){
+	console.log("Hello world!");
+}
+ 
+(function(){
+    var box = function(){
+        return box.fn.init();
+    };
+
+    box.prototype = box.fn = {
+        init : function(){
+            console.log('box.init()');
+
+			return this;
+        },
+
+		add : function(str){
+			alert("add", str);
+
+			return this;
+		},
+
+		remove : function(str){
+			alert("remove", str);
+
+			return this;
+		}
+    };
+    
+    box.fn.init.prototype = box.fn;
+    
+    window.box =box;
+})();
+
+var testBox = box();
+testBox.add("jQuery").remove("jQuery");
+```
 
    
 - Item C
