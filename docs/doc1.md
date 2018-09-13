@@ -22,7 +22,15 @@ ReactDOM.render(<h1>Hello, world!</h1>, document.getElementById('root'));
 
 JS Code
 ```js
-<script src="./scripts/evaluation/gc.spread.sheets.all.11.0.0.min.js" type="application/javascript"></script> <script>    GC.Spread.Sheets.LicenseKey = "xxx"; </script> Or <script src="./scripts/evaluation/gc.spread.sheets.all.11.0.0.min.js" type="application/javascript"></script>        <script src="./scripts/evaluation/licensekey.js" type="application/javascript"></script>        <script>         window.onload = function () {             var spread = new GC.Spread.Sheets.Workbook(document.getElementById("ss"));             var activeSheet = spread.getActiveSheet();          }   </script>   licensekey.js file:    GC.Spread.Sheets.LicenseKey = "xxxxxx";
+<script src="./scripts/evaluation/gc.spread.sheets.all.11.0.0.min.js" type="application/javascript"><
+/script> <script>    
+GC.Spread.Sheets.LicenseKey = "xxx"; </script>
+Or 
+
+<script src="./scripts/evaluation/gc.spread.sheets.all.11.0.0.min.js" type="application/javascript"></script> <script src="./scripts/evaluation/licensekey.js" type="application/javascript"></script>
+
+<script>
+window.onload = function () {             var spread = new GC.Spread.Sheets.Workbook(document.getElementById("ss"));var activeSheet = spread.getActiveSheet();          }   </script>   licensekey.js file:    GC.Spread.Sheets.LicenseKey = "xxxxxx";
 ```
 ## Nulla
 
