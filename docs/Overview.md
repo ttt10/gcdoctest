@@ -5,7 +5,6 @@ title: Overview
 Overview
 ========
 
-Collapse All Expand All
 
 **GrapeCity Documents** is a cross-platform solution for document management
 which aims to provide a universal document, editor and viewer solution for all
