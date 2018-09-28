@@ -38,7 +38,7 @@ const siteConfig = {
   editUrl: 'https://github.com/dinoreborn/gcdoctest/tree/master/docs/',
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: 'doc1', label: 'Docs'},
+    {doc: 'Overview', label: 'Docs'},
     {doc: 'doc4', label: 'API'},
     {page: 'help', label: 'Help'},
     {blog: true, label: 'Blog'},
