@@ -1,10 +1,8 @@
-﻿---
+---
 id: GettingStarted
 title: GettingStarted
 ---
-$$
 
-$$
 
 Getting Started
 ===============
