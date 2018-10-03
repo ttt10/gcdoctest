@@ -7,7 +7,7 @@ title: GettingStarted
 Getting Started
 ===============
 
-This topic includes:
+This topic incorporates:
 
 -   [System
     requirements](http://help.grapecity.com/gcdocs/gcpdf/onlinehelp/GettingStarted.html#i-in-this-topic-f32cf590-8728-4311-91ab-d38bcac11971)
