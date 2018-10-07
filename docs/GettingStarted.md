@@ -1,10 +1,7 @@
 ---
 id: GettingStarted
+title: Getting Started
 ---
-
-
-Getting Started
-===============
 
 This topic incorporates:
 
