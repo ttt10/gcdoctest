@@ -1,6 +1,5 @@
 ---
 id: GettingStarted
-title: GettingStarted
 ---
 
 
