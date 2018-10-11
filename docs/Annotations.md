@@ -54,7 +54,7 @@ All the listed annotations have a dedicated class and properties in the GcPdf li
 #### Get Annotations  
 To get the annotations from a page:
 
-    1.  Create an instance of the AnnotationCollection class.
+    1.  Create an instance of the AnnotationCollection class.  
     2.  Use the AnnotationCollection object to access the annotation by specifying its index.
     
     C#
