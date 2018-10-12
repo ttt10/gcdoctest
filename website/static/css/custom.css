@@ -14,3 +14,31 @@
 
 @media only screen and (min-width: 1500px) {
 }
+
+header .logo{
+  display: none;
+}
+
+h2.headerTitleWithLogo{
+  font-weight: normal;
+  font-size: 105% !important;
+  padding-top: 3px;
+}
+.button {
+    border: 1px solid #dddddd;
+  }
+
+  .fixedHeaderContainer  {
+    background: #3b5caa url(../img/Docs-32X32.png) no-repeat left center;
+    height: 60px;
+    padding-top: 10px;
+    background-position: 10px 14px;
+    padding-left: 30px !important;
+  }
+  .blog .headerWrapper, .wrapper {
+    max-width: 100%;
+}
+
+.postHeaderTitle a{
+  color:#3F529C;
+}
