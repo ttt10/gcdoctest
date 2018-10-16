@@ -1,6 +1,3 @@
-License Information
-===================
-
 GrapeCity Documents for PDF supports the following types of license:
 
 -   [Evaluation
