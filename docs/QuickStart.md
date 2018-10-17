@@ -20,24 +20,28 @@ This quick start helps you in getting started with the GcPdf library. It covers 
     
       
   ## Step 1: Create a new PDF document
-  Create a new application (.NET Core Console App\Windows Forms App) and add the references.
-  Include the following namespaces
-  using GrapeCity.Documents.Pdf;
-  using GrapeCity.Documents.Text;
-  Create a new PDF document using an instance of GcPdfDocument and define a text format for drawing a string, through code.
-  C#
-  Copy Code
-  // Create a new PDF document:
-  GcPdfDocument doc = new GcPdfDocument();
-  // Add a page, and get its Graphics object to draw on:
-  GcPdfGraphics g = doc.NewPage().Graphics;
-  // Create a text format for the "Hello World!" string:
-  TextFormat tf = new TextFormat();
-  // Use standard Times font
-  tf.Font = StandardFonts.Times;
-  // Pick a font size:
-  tf.FontSize = 14;
   
+  1. Create a new application (.NET Core Console App\Windows Forms App) and add the references.
+  2. Include the following namespaces
+      
+      using GrapeCity.Documents.Pdf;  
+      using GrapeCity.Documents.Text;
+    
+  Create a new PDF document using an instance of GcPdfDocument and define a text format for drawing a string, through code.
+  
+  `
+  C#  
+  // Create a new PDF document:  
+  GcPdfDocument doc = new GcPdfDocument();  
+  // Add a page, and get its Graphics object to draw on:  
+  GcPdfGraphics g = doc.NewPage().Graphics;  
+  // Create a text format for the "Hello World!" string:  
+  TextFormat tf = new TextFormat();  
+  // Use standard Times font  
+  tf.Font = StandardFonts.Times;  
+  // Pick a font size:  
+  tf.FontSize = 14;  
+  `
   Step 2: Draw a string on the PDF document
   Add the following code that uses DrawString method of GcGraphics class to draw string.
 
