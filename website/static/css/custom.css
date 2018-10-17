@@ -4,6 +4,18 @@
 }
 
 @media only screen and (min-width: 1024px) {
+  .navigationSlider .slidingNav ul li a:focus, .navigationSlider .slidingNav ul li a:hover, .navigationSlider .slidingNav ul li.siteNavItemActive a, .navigationSlider .slidingNav ul li.siteNavGroupActive a {
+    background: transparent;
+  }
+  
+  .navigationSlider .slidingNav ul li a::after {
+    margin-left: 20px;
+    content:"|";
+  }
+  
+  .navigationSlider .slidingNav ul li:last-child a::after {
+    content:"";
+  }
 }
 
 @media only screen and (max-width: 1023px) {
@@ -18,6 +30,74 @@
 header .logo{
   display: none;
 }
+
+.mainContainer {
+  flex: 1 1 auto;
+  max-width: 80%;
+  margin: 0 auto;
+  padding: 48px 0;
+}
+
+.container.paddingTop {
+  padding-top: 0px;
+}
+
+.promoSection .promoRow .pluginRowBlock {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.gridBlock .twoByGridBlock {
+  flex: 1 0 40%;
+  border: 1px solid #d3d3d3;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  padding: 0px 20px 10px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,.3);
+}
+
+.gridBlock .twoByGridBlock:hover{
+  transition:All 0.3s ease-out;
+-webkit-transition:All 0.3s ease-out;
+-moz-transition:All 0.3s ease-out;
+  box-shadow: 0 2px 8px 0 rgba(0,0,0,.6);
+}
+
+.gridBlock .twoByGridBlock h2 {
+  padding-left: 80px;
+  height: 80px;
+  line-height: 80px;
+}
+
+.gridBlock .twoByGridBlock:first-child h2 {
+  background: url(../img/GeneralGuide.png) no-repeat left center;
+}
+
+.gridBlock .twoByGridBlock:nth-child(2) h2 {
+  background: url(../img/Samples.png) no-repeat left center;
+}
+
+.gridBlock .twoByGridBlock:nth-child(3) h2 {
+  background: url(../img/Code.png) no-repeat left center;
+}
+
+.gridBlock .twoByGridBlock:nth-child(4) h2 {
+  background: url(../img/Help.png) no-repeat left center;
+}
+
+
+.gridBlock > *:nth-child(2n+2) {
+  margin-right: 0;
+}
+
+.gridBlock > *:nth-child(3) {
+  margin-left: 0;
+}
+
+
 
 h2.headerTitleWithLogo{
   font-weight: normal;
@@ -42,3 +122,8 @@ h2.headerTitleWithLogo{
 .postHeaderTitle a{
   color:#3F529C;
 }
+
+.nav-footer .sitemap .nav-home img, .nav-footer .fbOpenSource{
+  display: none;
+}
+

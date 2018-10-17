@@ -4,6 +4,7 @@
     "next": "Next",
     "previous": "Previous",
     "tagline": "A website for testing",
+<<<<<<< HEAD
     "Annotations": "Annotations",
     "doc1": "Sample Docs",
     "Example Page": "Example Page",
@@ -29,6 +30,64 @@
     "Docusaurus": "Docusaurus",
     "First Category": "First Category",
     "Second Category": "Second Category"
+=======
+    "docs": {
+      "Annotations": {
+        "title": "Annotations"
+      },
+      "doc1": {
+        "title": "Sample Docs",
+        "sidebar_label": "Example Page"
+      },
+      "doc2": {
+        "title": "document number 2"
+      },
+      "doc3": {
+        "title": "This is document number 3"
+      },
+      "doc4": {
+        "title": "Other Document"
+      },
+      "doc5": {
+        "title": "Fifth Document"
+      },
+      "Features": {
+        "title": "Features"
+      },
+      "GettingStarted": {
+        "title": "Getting Started"
+      },
+      "KeyFeatures": {
+        "title": "KeyFeatures"
+      },
+      "License Information": {
+        "title": "License Information"
+      },
+      "Overview": {
+        "title": "Overview"
+      },
+      "QuickStart": {
+        "title": "Quick Start"
+      },
+      "Upgrade": {
+        "title": "Upgrade to Latest Version"
+      }
+    },
+    "links": {
+      "Docs": "Docs",
+      "API": "API",
+      "Help": "Help",
+      "Blog": "Blog"
+    },
+    "categories": {
+      "GCPDF Overview": "GCPDF Overview",
+      "Key Features": "Key Features",
+      "Getting Started": "Getting Started",
+      "Docusaurus": "Docusaurus",
+      "First Category": "First Category",
+      "Second Category": "Second Category"
+    }
+>>>>>>> 32bfde48862e85a51b2dd722ad365c7a0b0012a3
   },
   "pages-strings": {
     "Help Translate|recruit community translators for your project": "Help Translate",
