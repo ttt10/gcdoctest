@@ -1,4 +1,7 @@
-License Information
+---
+id: LicenseInformation
+title: License Information
+---
 ===================
 
 GrapeCity Documents for PDF supports the following types of license:

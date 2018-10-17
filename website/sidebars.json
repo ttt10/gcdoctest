@@ -2,7 +2,7 @@
   "docs": {
     "GCPDF Overview": ["Overview"],
     "Key Features": ["KeyFeatures"],
-    "Getting Started":["GettingStarted","QuickStart","LicenseInformation","Upgrade"]
+    "Getting Started":["GettingStarted","QuickStart","LicenseInformation","Upgrade", "Annotations", "Document"]
   },
     "docs_old": {
     "Docusaurus": ["doc1"],
