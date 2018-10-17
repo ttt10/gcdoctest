@@ -5,12 +5,15 @@ title: Quick Start
 The following quick start sections help you in getting started with the GcPdf library:
    1. Create and save a PDF document
    2. Load and modify a PDF document
-   3. Create and save a PDF document
-  This quick start helps you in getting started with the GcPdf library. It covers how to create a simple PDF document having    a single page and draw string on it in a specified font using a .NET Core or .NET Standard application. Follow the steps   below to get started:
+   
+   ## Create and save a PDF document
+   
+This quick start helps you in getting started with the GcPdf library. It covers how to create a simple PDF document having    a single page and draw string on it in a specified font using a .NET Core or .NET Standard application. Follow the steps   below to get started:
 
-  Create a new PDF document
-  Draw a string on the PDF document
-  Save the PDF document  
+  1. Create a new PDF document
+  2. Draw a string on the PDF document
+  3. Save the PDF document  
+  
   ![hello world](https://github.com/dinoreborn/gcdoctest/helloworld_GcPdf.png)
 
   
