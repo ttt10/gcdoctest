@@ -1,4 +1,3 @@
-
 ---
 id: LicenseInformation
 title: License Information
