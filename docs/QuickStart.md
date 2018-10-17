@@ -19,7 +19,7 @@ This quick start helps you in getting started with the GcPdf library. It covers 
   
     
       
-  Step 1: Create a new PDF document
+  ## Step 1: Create a new PDF document
   Create a new application (.NET Core Console App\Windows Forms App) and add the references.
   Include the following namespaces
   using GrapeCity.Documents.Pdf;
