@@ -29,26 +29,25 @@ This quick start helps you in getting started with the GcPdf library. It covers 
     
   Create a new PDF document using an instance of GcPdfDocument and define a text format for drawing a string, through code.
   
-  `
-  C#  
-  // Create a new PDF document:  
-  GcPdfDocument doc = new GcPdfDocument();  
-  // Add a page, and get its Graphics object to draw on:  
-  GcPdfGraphics g = doc.NewPage().Graphics;  
-  // Create a text format for the "Hello World!" string:  
-  TextFormat tf = new TextFormat();  
-  // Use standard Times font  
-  tf.Font = StandardFonts.Times;  
-  // Pick a font size:  
-  tf.FontSize = 14;  
-  `
+    C#  
+    // Create a new PDF document:  
+    GcPdfDocument doc = new GcPdfDocument();  
+    // Add a page, and get its Graphics object to draw on:  
+    GcPdfGraphics g = doc.NewPage().Graphics;  
+    // Create a text format for the "Hello World!" string:  
+    TextFormat tf = new TextFormat();  
+    // Use standard Times font  
+    tf.Font = StandardFonts.Times;  
+    // Pick a font size:  
+    tf.FontSize = 14;  
+  
   Step 2: Draw a string on the PDF document
   Add the following code that uses DrawString method of GcGraphics class to draw string.
 
-  C#
-  // Draw the string at (1",1") from top/left of page
-  //(72 dpi is the default PDF graphics' resolution):
-  g.DrawString("Hello, World!", tf, new PointF(72, 72));
+    C#
+    // Draw the string at (1",1") from top/left of page
+    //(72 dpi is the default PDF graphics' resolution):
+    g.DrawString("Hello, World!", tf, new PointF(72, 72));
     
 
   Step 3: Save the document
