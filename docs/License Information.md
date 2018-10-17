@@ -1,12 +1,7 @@
-<<<<<<< HEAD
 ---
 id: LicenseInformation
 title: License Information
 ---
-===================
-
-=======
->>>>>>> 32bfde48862e85a51b2dd722ad365c7a0b0012a3
 GrapeCity Documents for PDF supports the following types of license:
 
 -   [Evaluation
