@@ -16,6 +16,9 @@ Library are as follows:
     requirements in .NET Standard applications. Moreover, you can also load,
     modify PDFs from any source and save them again.
 
+
+
+
 -   **Supported PDF versions**  
     GcPdf supports PDF 1.3, 1.4, 1.5, 1.6, and 1.7 and PDF/A version.
 
@@ -54,6 +57,13 @@ Library are as follows:
     complex PDF documents with content including text, graphics, images,
     annotations, outlines and more.  
     
+https://stackblitz.com/edit/js-2klkkd?file=index.html
+
+https://jsfiddle.net/Wijmo5/6GB66
+
+https://jsbin.com/nigujuhuxo/edit?html,js,output
+
+https://codesandbox.io/s/9yvprxz4or
 
 For additional information about the supported features in GcPdf, see
 [Features](http://help.grapecity.com/gcdocs/gcpdf/onlinehelp/Features.html)
