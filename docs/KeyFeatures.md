@@ -57,13 +57,7 @@ Library are as follows:
     complex PDF documents with content including text, graphics, images,
     annotations, outlines and more.  
     
-https://stackblitz.com/edit/js-2klkkd?file=index.html
-
-https://jsfiddle.net/Wijmo5/6GB66
-
-https://jsbin.com/nigujuhuxo/edit?html,js,output
-
-https://codesandbox.io/s/9yvprxz4or
+<iframe width="100%" height="300" src="//jsfiddle.net/cowboy/HvAJf/embedded/" allowfullscreen="allowfullscreen" allowpaymentrequest frameborder="0"></iframe>
 
 For additional information about the supported features in GcPdf, see
 [Features](http://help.grapecity.com/gcdocs/gcpdf/onlinehelp/Features.html)
