@@ -10,8 +10,8 @@ This quick start helps you in getting started with the GcPdf library. It covers 
 
 Create a new PDF document
 Draw a string on the PDF document
-Save the PDF document
-
+Save the PDF document  
+![hello world](https://github.com/dinoreborn/gcdoctest/helloworld_GcPdf.png)
 
 Step 1: Create a new PDF document
 Create a new application (.NET Core Console App\Windows Forms App) and add the references.
