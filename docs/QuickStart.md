@@ -14,9 +14,9 @@ This quick start helps you in getting started with the GcPdf library. It covers 
   2. Draw a string on the PDF document
   3. Save the PDF document  
   
-  ![hello world](/assests/helloworld_GcPdf.png)
+  ![hello world](/assets/helloworld_GcPdf.png)
   
-  ![hello world](assests/helloworld_GcPdf.png)
+  ![hello world](assets/helloworld_GcPdf.png)
   ![alt-text](assets/helloworld_GcPdf.png)
     
       
