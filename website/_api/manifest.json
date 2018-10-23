@@ -1,0 +1,425 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/sharad.tomer/Documents/docfx/azure-sample/docfx",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "log_codes": [
+        "UidNotFound"
+      ],
+      "type": "UniversalReference",
+      "source_relative_path": "../yml/AmqpTransportOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/AmqpTransportOptions.html",
+          "hash": "wjBLv+frDCUikqnlD50zNA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "../yml/BlobUpload.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/BlobUpload.html",
+          "hash": "rn+9scE+NwCE2ZmjFEcWsQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "UidNotFound"
+      ],
+      "type": "UniversalReference",
+      "source_relative_path": "../yml/Client.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Client.html",
+          "hash": "M4HNn62JzvwaJaehLwZfPQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "UidNotFound"
+      ],
+      "type": "UniversalReference",
+      "source_relative_path": "../yml/DeviceClientOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DeviceClientOptions.html",
+          "hash": "u28zPOPGGOooDuOEuXXviw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "../yml/DeviceMethodExchange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DeviceMethodExchange.html",
+          "hash": "YNA7cyQj7OMRWY9Jt/u+Yg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "../yml/DeviceMethodRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DeviceMethodRequest.html",
+          "hash": "vV5KXiCwHIX2nGJ3gFbYqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "../yml/DeviceMethodResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DeviceMethodResponse.html",
+          "hash": "xjlTQda//ThuNfBWDer3gQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "../yml/DeviceTransport.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DeviceTransport.html",
+          "hash": "IXI2qafMSKvUygmHoJN0/w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "UidNotFound"
+      ],
+      "type": "UniversalReference",
+      "source_relative_path": "../yml/HttpReceiverOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HttpReceiverOptions.html",
+          "hash": "bNePXsKPuVoOC48PiuJ3mw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "UidNotFound"
+      ],
+      "type": "UniversalReference",
+      "source_relative_path": "../yml/HttpTransportOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/HttpTransportOptions.html",
+          "hash": "dUl6BUQTZm9cBbbIdKvFHA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "../yml/IotEdgeAuthenticationProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/IotEdgeAuthenticationProvider.html",
+          "hash": "DHS6IGNS+Am5ZKxs0uUzyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "../yml/MethodCallback.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MethodCallback.html",
+          "hash": "ytS08U0pR1ef4VPL8z8Pfg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "../yml/MethodParams.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MethodParams.html",
+          "hash": "K4Dr1orc51f2+RFFcaSFLg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "../yml/MethodResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MethodResult.html",
+          "hash": "60y0bEcw4EqIAjxBCyqrsw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "UidNotFound"
+      ],
+      "type": "UniversalReference",
+      "source_relative_path": "../yml/ModuleClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/ModuleClient.html",
+          "hash": "Be06oFXTIPLfZygp9FFtXQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "UidNotFound"
+      ],
+      "type": "UniversalReference",
+      "source_relative_path": "../yml/MqttTransportOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MqttTransportOptions.html",
+          "hash": "3UX4xoFLoS8em+VoyBe1OQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "../yml/SharedAccessKeyAuthenticationProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharedAccessKeyAuthenticationProvider.html",
+          "hash": "m9mQMkKbp3gCvtdq0iStyw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "../yml/SharedAccessSignatureAuthenticationProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/SharedAccessSignatureAuthenticationProvider.html",
+          "hash": "rQJvJOZ7AQ8Mms7seVVPnw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "../yml/TransportCtor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TransportCtor.html",
+          "hash": "atagAUtv3fXmsnDc2bfqgg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "../yml/Twin.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Twin.html",
+          "hash": "+HaanT4xgbv75iAGKLCycA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "../yml/TwinProperties.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/TwinProperties.html",
+          "hash": "7QC1EjMnpv8c9nEa/i4DIw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "../yml/X509AuthenticationProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/X509AuthenticationProvider.html",
+          "hash": "SPWkoI3D581vLJhV3dOSdg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "../yml/create.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/create.html",
+          "hash": "A1bifwv4iIvvXQNPW8VBbw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "../yml/createDeviceMethodExchange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/createDeviceMethodExchange.html",
+          "hash": "sgDV2e6DGfEfbOwNP1fbWA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "../yml/createWithSharedAccessKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/createWithSharedAccessKey.html",
+          "hash": "Lq5jvAmEbr8Z/z2xqxW3bQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "../yml/createWithX509Certificate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/createWithX509Certificate.html",
+          "hash": "IDl8Bf9vuemxvmyLhIQd7g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "../yml/getUserAgentString.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/getUserAgentString.html",
+          "hash": "03kNGcfNFKq1Vpb57okSLw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "log_codes": [
+        "UidNotFound"
+      ],
+      "type": "UniversalReference",
+      "source_relative_path": "../yml/index.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "wZimTkQsj6wESnLAvEn/4w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "UniversalReference",
+      "source_relative_path": "../yml/parse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/parse.html",
+          "hash": "vezjgEWecQ2Q7XpOsSiHlQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "../yml/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "uuVrH2vo9yUI7KBG+CB/Ow=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build"
+      },
+      "processors": {
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        },
+        "UniversalReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor UniversalReferenceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build"
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing"
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
