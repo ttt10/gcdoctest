@@ -29,16 +29,17 @@ To get the document properties from a particular PDF document:
 2. Load any existing PDF file using the Load method.
 3. Use the GcPdfDocument object to get the document properties of the PDF file.
 
----
-'''   C#
-'''   static void Main(string[] args)
-'''   {
-    '''  // Load an existing PDF using FileStream
-    '''   FileStream fileStream = File.OpenRead(args[0].ToString());
-    '''   GcPdfDocument doc = new GcPdfDocument();
-    '''   doc.Load(fileStream, null);
-    '''   // Get and Display the property values
-    '''   Console.WriteLine("Author of the document is {0}", doc.DocumentInfo.Author);
-    '''   Console.WriteLine("Document subject is {0}", doc.DocumentInfo.Subject);
-    '''   Console.WriteLine("Documentation title {0}", doc.DocumentInfo.Title);
-'''   }
+```
+   C#  
+   static void Main(string[] args)  
+   {  
+      // Load an existing PDF using FileStream  
+       FileStream fileStream = File.OpenRead(args[0].ToString());  
+       GcPdfDocument doc = new GcPdfDocument();  
+       doc.Load(fileStream, null);  
+       // Get and Display the property values  
+       Console.WriteLine("Author of the document is {0}", doc.DocumentInfo.Author);  
+       Console.WriteLine("Document subject is {0}", doc.DocumentInfo.Subject);  
+       Console.WriteLine("Documentation title {0}", doc.DocumentInfo.Title);  
+   }  
+```
