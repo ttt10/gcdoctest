@@ -1,5 +1,5 @@
   ---
-id: Upgrade
+id: Upgrade  
 title: Upgrade to Latest Version
 ---
 
@@ -12,7 +12,7 @@ To upgrade GcPdf license from v1 to v2, you will obtain a new license key from G
 5. On the left panel, select the Select all packages checkbox and click Update.
 6. In the Preview Changes dialog, click OK and choose I Accept in the next screen.
 7. Switch to the code view and replace the old key with new v2 key received through email.
-  - To upgrade the license of a particular instance:
-    ``` var doc = new GcPdfDocument("new key") ```  
+  - To upgrade the license of a particular instance:  
+    >``` var doc = new GcPdfDocument("new key") ```  
   - To upgrade the license of all the instances:  
-    ``` GcPdfDocument.SetLicenseKey("new key");```  
+    >``` GcPdfDocument.SetLicenseKey("new key");```  
