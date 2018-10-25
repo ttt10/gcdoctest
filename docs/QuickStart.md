@@ -26,7 +26,8 @@ This quick start helps you in getting started with the GcPdf library. It covers 
     
   Create a new PDF document using an instance of GcPdfDocument and define a text format for drawing a string, through code.
 
-  ```  C#
+  ``` 
+  C# <style background-color="lightblue">
   // Create a new PDF document:  
    GcPdfDocument doc = new GcPdfDocument();      
    // Add a page, and get its Graphics object to draw on:      
