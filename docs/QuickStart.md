@@ -68,8 +68,8 @@ This quick start covers how to load an existing PDF document, modify and save it
          using GrapeCity.Documents.Pdf;  
   3. Load an existing document using Load method of the GcPdfDocument class.  
   
-  >> C#
-  ```C#   
+  > C#
+  ```  
   GcPdfDocument doc = new GcPdfDocument();  
   
   //Create an object of filestream   
@@ -85,7 +85,7 @@ This quick start covers how to load an existing PDF document, modify and save it
   GcPdfGraphics g = doc.NewPage().Graphics;  
   ```
   2. Add the following code that uses DrawString method of GcGraphics class to draw string. 
-  >> C#  
+  >>> C#  
   ``` C#  
   //Add text on the new page  
   g.DrawString("This is a newly added page in the modified document.", new TextFormat()  
@@ -96,7 +96,7 @@ This quick start covers how to load an existing PDF document, modify and save it
 ```    
   ### Step 3: Save the document  
   Save the document using Save method of the GcPdfDocument class.  
- >> C#  
+ >>> C#  
   ``` C#  
   //Save the document  
   doc.Save("ModifiedDocument.pdf");  
