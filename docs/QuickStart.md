@@ -25,8 +25,8 @@ This quick start helps you in getting started with the GcPdf library. It covers 
      using GrapeCity.Documents.Text;
     
   Create a new PDF document using an instance of GcPdfDocument and define a text format for drawing a string, through code.
-  > C# <style background-color="lightblue"> >  
-  ``` C#
+
+  ```  C#
   // Create a new PDF document:  
    GcPdfDocument doc = new GcPdfDocument();      
    // Add a page, and get its Graphics object to draw on:      
