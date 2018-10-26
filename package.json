@@ -7,11 +7,11 @@
     "doc": "docs"
   },
   "scripts": {
+      "version": "docusaurus-version",
     "postinstall": "cd website && npm install",
     "start": "cd website && npm run start",
     "build": "cd website && npm run build ",
-    "publish": "gh-pages -d website/build/test-site",
-    "version": "docusaurus-version"
+    "publish": "gh-pages -d website/build/test-site" 
   },
   "repository": {
     "type": "git",
