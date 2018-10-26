@@ -1,6 +1,6 @@
 ---
 id: Annotations
-topic: Annotations
+title: Annotations
 ---
 An annotation is a visual element to mark or highlight specific location on a page. It can be text, image, shape, or an attachment that can be used to display, highlight and refer to a particular information. The purpose of using annotation is to simply associate information or a note with an item or location on a page. A number of annotations can be displayed either in open or closed state. In the closed state, they appear on the page as a note, icon, or a box, depending on the annotation type. When opened by clicking, these annotations display the associated object such as pop up window having text. For more information on annotations and its types, see PDF specification 1.7 (Section 12.5).
 
