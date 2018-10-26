@@ -8,6 +8,7 @@
   },
   "scripts": {
       "version": "docusaurus-version",
+    "rename-version": "docusaurus-rename-version",
     "postinstall": "cd website && npm install",
     "start": "cd website && npm run start",
     "build": "cd website && npm run build ",
