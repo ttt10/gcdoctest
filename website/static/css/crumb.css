@@ -1,0 +1,30 @@
+.crumb-root{
+    background-color:#f8f8f8;
+    display: flex;
+    flex-direction: row;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #ccc;
+    position: fixed;
+    width: 100%;
+    opacity: 1;
+    z-index: 150;
+}
+
+.docMainWrapper.wrapper{
+    padding-top: 45px;
+}
+
+.c-node{
+    margin-right: 15px;
+    /* border-bottom: 2px solid seagreen; */
+}
+
+.c-text{
+
+}
+
+.c-separator{
+
+}

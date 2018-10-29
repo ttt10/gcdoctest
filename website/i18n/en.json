@@ -3,34 +3,7 @@
   "localized-strings": {
     "next": "Next",
     "previous": "Previous",
-    "tagline": "A website for testing",
-<<<<<<< HEAD
-    "Annotations": "Annotations",
-    "doc1": "Sample Docs",
-    "Example Page": "Example Page",
-    "doc2": "document number 2",
-    "doc3": "This is document number 3",
-    "Document": "Document",
-    "doc4": "Other Document",
-    "doc5": "Fifth Document",
-    "Features": "Features",
-    "GettingStarted": "Getting Started",
-    "KeyFeatures": "KeyFeatures",
-    "LicenseInformation": "License Information",
-    "Overview": "Overview",
-    "QuickStart": "Quick Start",
-    "Upgrade": "Upgrade to Latest Version",
-    "Docs": "Docs",
-    "API": "API",
-    "Help": "Help",
-    "Blog": "Blog",
-    "GCPDF Overview": "GCPDF Overview",
-    "Key Features": "Key Features",
-    "Getting Started": "Getting Started",
-    "Docusaurus": "Docusaurus",
-    "First Category": "First Category",
-    "Second Category": "Second Category"
-=======
+    "tagline": "Documents for Excel, .NET Edition Documentation",
     "docs": {
       "Annotations": {
         "title": "Annotations"
@@ -44,6 +17,9 @@
       },
       "doc3": {
         "title": "This is document number 3"
+      },
+      "Document": {
+        "title": "Document"
       },
       "doc4": {
         "title": "Other Document"
@@ -60,7 +36,7 @@
       "KeyFeatures": {
         "title": "KeyFeatures"
       },
-      "License Information": {
+      "LicenseInformation": {
         "title": "License Information"
       },
       "Overview": {
@@ -70,7 +46,7 @@
         "title": "Quick Start"
       },
       "Upgrade": {
-        "title": "Upgrade to Latest Version"
+        "title": "Upgrade"
       }
     },
     "links": {
@@ -87,7 +63,6 @@
       "First Category": "First Category",
       "Second Category": "Second Category"
     }
->>>>>>> 32bfde48862e85a51b2dd722ad365c7a0b0012a3
   },
   "pages-strings": {
     "Help Translate|recruit community translators for your project": "Help Translate",

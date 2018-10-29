@@ -2,9 +2,15 @@
   "docs": {
     "GCPDF Overview": ["Overview"],
     "Key Features": ["KeyFeatures"],
-    "Getting Started":["GettingStarted","QuickStart","LicenseInformation","Upgrade", "Annotations", "Document"]
+    "Getting Started": ["GettingStarted", {
+      "type": "subcategory",
+      "label": "My Example Subcategory",
+      "ids": [
+        "QuickStart"
+      ]
+    }, "LicenseInformation", "Upgrade", "Annotations", "Document"]
   },
-    "docs_old": {
+  "docs_old": {
     "Docusaurus": ["doc1"],
     "First Category": ["doc2"],
     "Second Category": ["doc3"]
