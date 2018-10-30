@@ -39,7 +39,7 @@ const siteConfig = {
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
     {doc: 'Overview', label: 'Docs'},
-    {href: 'http://www.nilayvishwakarma.com/docfxsamplerepo/api/', label: 'API'},
+    {href: 'https://dinoreborn.github.io/docfxsamplerepo/api/', label: 'API'},
     {page: 'help', label: 'Help'},
     {blog: true, label: 'Blog'}
   ],
