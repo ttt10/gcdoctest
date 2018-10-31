@@ -50,9 +50,7 @@ In order to use GcPdf in a .NET Core, ASP.NET Core, .NET Framework application
 (any target that supports .NET Standard 2.0), install the NuGet packages in your
 application using the following steps:
 
-$$
 Visual Studio for Windows:
-$$
 
 1.  Open Visual Studio for Windows.
 
@@ -81,9 +79,9 @@ After this step, follow the steps in the [Quick
 Start](http://help.grapecity.com/gcdocs/gcpdf/onlinehelp/GettingStarted.html#QS) section
 below.
 
-$$
+
 Visual Studio for Mac
-$$
+
 
 1.  Open Visual Studio for MAC.
 
@@ -109,9 +107,9 @@ section below.
 
  
 
-$$
+
 Visual Studio Code for Linux
-$$
+
 
 1.  Open Visual Studio Code.
 
@@ -182,7 +180,7 @@ steps below to get started:
     of [GcPdfDocument](http://help.grapecity.com/gcdocs/gcpdf/onlinehelp/GrapeCity.Documents.Pdf~GrapeCity.Documents.Pdf.GcPdfDocument.html)
     and define a text format for drawing a string, through code.
 
->   C\#
+>   C#
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // Create a new PDF document: GcPdfDocument doc = new GcPdfDocument(); 
@@ -204,9 +202,9 @@ tf.FontSize = 14;
     of [GcGraphics](http://help.grapecity.com/gcdocs/gcpdf/onlinehelp/GrapeCity.Documents.Common~GrapeCity.Documents.Drawing.GcGraphics.html)
     class to draw string.
 
-    $$
-    C#
-    $$
+    
+    >C#
+    
 
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     // Draw the string at (1",1") from top/left of page 
@@ -216,10 +214,9 @@ tf.FontSize = 14;
 
 2.  Save the PDF document using the following code.
 
-    $$
-    C#
-    $$
-
+   
+    >C#
+    
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     //Save PDF document 
     doc.Save("filename.pdf");
