@@ -8,7 +8,7 @@ testtag:abccd
 ================
 
   
-GcPdf provides many different features that enable the developers to build
+GcPdf2 provides many different features that enable the developers to build
 intuitive and professional-looking applications. The main features for GcPdf
 Library are as follows:
 
