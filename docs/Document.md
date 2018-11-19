@@ -1,10 +1,7 @@
 ---
 id: Document
 title: Document
----
-
-Apart from content, a PDF file holds some additional information in the form of document properties. These properties define various attributes of document as a whole.
-GcPdf provides following document properties through GcPdfDocument class:  
+---  
 #### Compression
 GcPdf allows you to compress or reduce the original file size of the document using CompressionLevel property. The compression level ranges from 0 to 9, where 0 indicates no compression and 9 indicates the best compression. By default, value of compression level is set to 6.
 
