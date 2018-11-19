@@ -17,10 +17,6 @@ ms.author: jeffgilb
 ms.reviewer: 
 ms.custom: mvc
 ---
-Ans annotation is a visual element to mark or highlight specific location on a page. It can be text, image, shape, or an attachment that can be used to display, highlight and refer to a particular information. The purpose of using annotation is to simply associate information or a note with an item or location on a page. A number of annotations can be displayed either in open or closed state. In the closed state, they appear on the page as a note, icon, or a box, depending on the annotation type. When opened by clicking, these annotations display the associated object such as pop up window having text. For more information on annotations and its types, see PDF specification 1.7 (Section 12.5).
-
-GcPdf offers a variety of standard annotation types as described below.
-
 #### Text annotation  
 GcPdf provides TextAnnotation class that lets you display the annotation as a sticky note attached to a location in a PDF document. This annotation appears as an icon in closed state, which on clicking displays a pop-up window with associated text in the open state.
 
